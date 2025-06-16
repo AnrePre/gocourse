@@ -1,11 +1,11 @@
-package main
+package goroutines
 
 import (
 	"fmt"
 	"time"
 )
 
-func main() {
+func goroutines() {
 	var err error
 
 	fmt.Println("Beginning program.")
