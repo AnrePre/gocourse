@@ -1,11 +1,11 @@
-package main
+package revision
 
 import (
 	"fmt"
 	"time"
 )
 
-func main() {
+func channels() {
 
 	greeting := make(chan string)
 	greetString := "Hello"
