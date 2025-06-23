@@ -23,7 +23,7 @@ func main() {
 
 	//Load the TLS cert and key
 	cert := "cert.pem"
-	key := "key.pm"
+	key := "key.pem"
 
 	//Configure TLS
 	tlsConfig := &tls.Config{
